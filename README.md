@@ -1,0 +1,2 @@
+# AlliedModdersForumIgnoredRemover
+AlliedModders Remove Ignored UserPost
