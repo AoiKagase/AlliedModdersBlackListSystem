@@ -3,8 +3,8 @@
 // @include		*://forums.alliedmods.net/forumdisplay.php*
 // @include		*://forums.alliedmods.net/showthread.php*
 // @include		*://forums.alliedmods.net/showpost.php*
-// @version		0.2
-// @date		2020-07-13
+// @version		0.3
+// @date		2020-07-28
 // @creator		Aoi.Kagase
 // @require		http://code.jquery.com/jquery-latest.min.js
 // @description	Remove all posts ignored users
@@ -17,7 +17,7 @@ $.ajax({
 	scriptCharset: 'UTF-8',
 	timeout: 10000,
 	cache: false,
-	url:'https://raw.githubusercontent.com/AoiKagase/AlliedModdersForumIgnoredRemover/master/denylist.json',
+	url:'https://raw.githubusercontent.com/AoiKagase/AlliedModdersBlackListSystem/master/denylist.json',
 }).done(function(data, status, xhr) {
 	ignored = JSON.parse(data);
 	$('td[id^=td_threadtitle_]').each(function() {
