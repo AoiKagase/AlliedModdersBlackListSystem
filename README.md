@@ -8,4 +8,6 @@ https://raw.githubusercontent.com/AoiKagase/AlliedModdersBlackListSystem/master/
 
 ## Add to Blacklist.
 Please submit to Issues to be add to blacklists.<br/>
+(Please include the target user's member page (on forum.alliedmods.net).)
+
 This system shares the blacklist with other users.
