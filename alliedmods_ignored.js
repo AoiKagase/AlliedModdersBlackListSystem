@@ -3,8 +3,8 @@
 // @include		*://forums.alliedmods.net/forumdisplay.php*
 // @include		*://forums.alliedmods.net/showthread.php*
 // @include		*://forums.alliedmods.net/showpost.php*
-// @version		0.3
-// @date		2020-07-28
+// @version		0.4
+// @date		2022-12-23
 // @creator		Aoi.Kagase
 // @require		http://code.jquery.com/jquery-latest.min.js
 // @description	Remove all posts ignored users
@@ -25,6 +25,14 @@ $.ajax({
 		if ($.inArray(name,ignored) !== -1)
 		{
 			$(this).parent().hide();
+			console.log("Found " + name);
+		}
+	});
+	$('table[id^=post]').each(function() {
+		var name = $.trim($(this).find("a[class=bigusername]").text());
+		if ($.inArray(name,ignored) !== -1)
+		{
+			$(this).parent().parent().hide();
 			console.log("Found " + name);
 		}
 	});
