@@ -2,7 +2,6 @@
 // @name		AlliedModders Remove Deleted thread.
 // @include		*://forums.alliedmods.net/forumdisplay.php*
 // @version		0.1
-// @date		2024-04-02
 // @creator		Aoi.Kagase
 // @require		http://code.jquery.com/jquery-latest.min.js
 // @description	Remove all posts ignored users

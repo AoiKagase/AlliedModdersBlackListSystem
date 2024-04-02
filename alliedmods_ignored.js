@@ -4,7 +4,6 @@
 // @include		*://forums.alliedmods.net/showthread.php*
 // @include		*://forums.alliedmods.net/showpost.php*
 // @version		0.4
-// @date		2022-12-23
 // @creator		Aoi.Kagase
 // @require		http://code.jquery.com/jquery-latest.min.js
 // @description	Remove all posts ignored users
