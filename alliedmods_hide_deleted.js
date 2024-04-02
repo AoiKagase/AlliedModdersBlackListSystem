@@ -1,8 +1,6 @@
 // ==UserScript==
 // @name		AlliedModders Remove Deleted thread.
 // @include		*://forums.alliedmods.net/forumdisplay.php*
-// @include		*://forums.alliedmods.net/showthread.php*
-// @include		*://forums.alliedmods.net/showpost.php*
 // @version		0.1
 // @date		2024-04-02
 // @creator		Aoi.Kagase
